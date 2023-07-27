@@ -4,11 +4,8 @@ import com.prueba_spring_boot.prueba_backend.core.user.User;
 import com.prueba_spring_boot.prueba_backend.core.user.ports.UserRepositoryService;
 import com.prueba_spring_boot.prueba_backend.infrastructure.persistence.repositories.UserRepository;
 import com.prueba_spring_boot.prueba_backend.infrastructure.shared.exceptions.BadRequestException;
-import com.prueba_spring_boot.prueba_backend.infrastructure.shared.exceptions.NotFoundException;
 import lombok.AllArgsConstructor;
 import reactor.core.publisher.Mono;
-
-import java.util.Optional;
 
 @AllArgsConstructor
 public class UserServiceImpl implements UserRepositoryService {
